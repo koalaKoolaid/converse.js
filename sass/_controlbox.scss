@@ -63,9 +63,9 @@
         order: -1;
 
         .open-rooms-toggle, .open-rooms-toggle .fa {
-            color: var(--chatroom-head-color) !important;
+            color: var(--chatroom-group-color) !important;
             &:hover {
-                color: var(--chatroom-head-color-dark) !important;
+                color: var(--chatroom-group-color-hover) !important;
             }
         }
 
@@ -223,11 +223,11 @@
             }
 
             .controlbox-heading--groupchats {
-                color: var(--chatroom-head-color);
+                color: var(--chatroom-group-color);
             }
 
             .controlbox-heading--contacts {
-                color: var(--chat-head-color-dark);
+                color: var(--chatroom-contacts-color);
             }
 
             .controlbox-heading__btn {

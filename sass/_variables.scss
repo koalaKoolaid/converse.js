@@ -5,6 +5,7 @@ $mobile_portrait_length: 480px !default;
     --subdued-color: #A8ABA1;
 
     --green: #3AA569;
+    --green-dark: #2b8553;
     --redder-orange: #E77051;
     --orange: #E7A151;
     --light-blue: #578EA9;
@@ -122,6 +123,11 @@ $mobile_portrait_length: 480px !default;
     --chatroom-correcting-color: #fadfd7; // lighten($red, 30%)
     --chatroom-badge-color: var(--chatroom-head-color);
     --chatroom-badge-hover-color: var(--chatroom-head-color-dark);
+
+    --chatroom-group-color: var(--green);
+    --chatroom-group-color-hover: var(--green-dark);
+    --chatroom-contacts-color: var(--green);
+    --chatroom-contacts-color-hover: var(--green-dark);
 
     --headline-head-color: var(--orange);
     --headline-message-color: #D2842B;

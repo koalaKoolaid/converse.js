@@ -62,7 +62,8 @@ function getURI (url) {
 }
 
 function checkTLS (uri) {
-    return window.location.protocol === 'http:' ||
+    return window.location.protocol === 'file:' ||
+            window.location.protocol === 'http:' ||
            window.location.protocol === 'https:' && uri.protocol().toLowerCase() === "https";
 }
 

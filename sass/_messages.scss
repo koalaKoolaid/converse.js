@@ -28,7 +28,7 @@
             }
 
             .separator-text {
-                background: white;
+                background: var(--separator-bg-color);
                 bottom: 1px; // Offset needed due to .separator border size
                 color: var(--separator-text-color);
                 display: inline-block;

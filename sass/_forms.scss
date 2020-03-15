@@ -19,19 +19,19 @@
 
         .form-control {
             &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-                color: var(--subdued-color);
+                color: var(--input-placeholder);
             }
             &::-moz-placeholder { /* Firefox 19+ */
-                color: var(--subdued-color);
+                color: var(--input-placeholder);
             }
             &:-ms-input-placeholder { /* IE 10+ */
-                color: var(--subdued-color);
+                color: var(--input-placeholder);
             }
             &:-moz-placeholder { /* Firefox 18- */
-                color: var(--subdued-color);
+                color: var(--input-placeholder);
             }
             &::placeholder {
-                color: var(--subdued-color);
+                color: var(--input-placeholder);
             }
         }
 

@@ -345,7 +345,7 @@
                 bottom: 4.5em;
             }
             .chat-toolbar {
-                background-color: white;
+                background-color: var(--chat-toolbar-color);
                 border-top: var(--message-input-border-top);
                 color: var(--message-input-color);
                 .fas, .fas:hover,

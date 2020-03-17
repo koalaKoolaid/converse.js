@@ -115,7 +115,8 @@ converse.plugins.add('converse-register', {
                 if (this.model.get('active-form') == "register") {
                     this.loginpanel.el.classList.add('hidden');
                     this.registerpanel.el.classList.remove('hidden');
-                } else {
+                } 
+                else if (this.model.get('active-form') == "login"){
                     this.loginpanel.el.classList.remove('hidden');
                     this.registerpanel.el.classList.add('hidden');
                 }

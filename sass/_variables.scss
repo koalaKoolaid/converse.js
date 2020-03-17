@@ -12,6 +12,15 @@ $mobile_portrait_length: 480px !default;
     --orange: #E7A151;
     --light-blue: #578EA9;
 
+
+    --peach: #f5C182;
+    --purple: #957DAD;
+    --purple-pink: #EBA7E8;
+    --papaya-white: #FFEFD5;
+    --pastelle-green: #7BE3A8;
+
+
+
     --input-placeholder: var(--light-green);
 
     --chat-status-online: var(--green);
@@ -137,6 +146,8 @@ $mobile_portrait_length: 480px !default;
 
     --chat-content-user: var(--green);
     --chat-toolbar-color: white;
+    --text-time-color: white;
+    --participant-title-color: red;
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --headline-head-color: var(--orange);
@@ -204,14 +215,6 @@ $mobile_portrait_length: 480px !default;
 
 #conversejs.theme-nubnub {
     
-    --subdued-color: var(--green);
-    //~~~~~NUBNUB VARS~~~~~
-    --grey_bg: #333;
-    --grey_bg-light: #514b4b;
-    //~~~~~~~~~~~~~~~~~~~~~
-
-    --text-color: var(--green);
-
     --avatar-border-radius: 100%;
     --avatar-border: 0px;
     --avatar-background-color: none;
@@ -232,21 +235,28 @@ $mobile_portrait_length: 480px !default;
     --heading-color: #4F545C;
 
     //~~~~~~MODIFY HERE~~~~~~~~~~~
+    --grey_bg: #222;
+    --grey_bg-light: #514B4B;
+    --text-color: var(--purple);
+    --subdued-color: var(--green);
     --chat-textarea-background-color: var(--grey_bg-light);
     --chat-content-background-color: var(--grey_bg);
     --occupants-background-color: var(--grey_bg);
+    --chat-head-color: var(--grey_bg);
 
-    --message-input-border-top: 1px solid var(--light-green);
-    --message-input-color: var(--light-green);
-    --chat-head-text-color: var(--light-green);
-    --chat-content-user: var(--green);
-    --chat-textarea-color: var(--light-green);
+    --message-input-border-top: 1px solid var(--pastelle-green);
+    --message-input-color: var(--pastelle-green);
+    --chat-head-text-color: var(--pastelle-green);
+    --chat-content-user: var(--purple);
+    --chat-textarea-color: var(--pastelle-green);
 
-    --message-text-color: white;
+    --message-text-color: var(--papaya-white);
 
     --link-color: var(--light-green);
     --link-hover-color: var(--green);
     --chat-toolbar-color: var(--grey_bg);
+    --text-time-color: var(--peach);
+    --participant-title-color: var(--green);
     //~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --chatroom-head-color: var(--grey_bg);

@@ -63,7 +63,7 @@
                 font-size: var(--font-size);
             }
             .emoji-picker {
-                background-color: white;
+                background-color: var(--chat-content-background-color);
                 padding: 0.5em 0 0 0.5em;
                 &:last-child {
                     padding-bottom: 0.5em;
@@ -78,13 +78,13 @@
                         height: 30px;
                         width: 32px;
                         &.selected a {
-                            background-color: var(--highlight-color);
+                            background-color: var(--chatroom-head-color-lighten-25-percent);
                         }
                         a {
                             padding: 3px;
                             font-size: var(--font-size-huge);
                             &:hover {
-                                background-color: var(--highlight-color);
+                                background-color: var(--chatroom-head-color-lighten-25-percent);
                             }
                         }
                     }
@@ -100,6 +100,9 @@
                     margin: 0.25em;
                     height: 2em;
                     font-size: var(--font-size-small);
+                    background-color: var(--chat-textarea-background-color);
+                    border-color: var(--message-input-color);
+                    color: var(--message-input-color);
                 }
                 ul {
                     display: flex;
@@ -110,12 +113,12 @@
                         padding: 0.25em 0;
                         font-size: var(--font-size-huge);
                         &.picked {
-                            background-color: white;
+                            background-color: var(--chat-head-color);
                             border: 1px var(--chat-head-color) solid;
                             border-bottom: none;
                         }
                         &.selected a, &:hover a {
-                            background-color: var(--highlight-color);
+                            background-color: var(--chatroom-head-color-lighten-25-percent);
                         }
                         a {
                             padding: 0.25em;
@@ -140,6 +143,7 @@
                         &.picked {
                             border: 1px var(--chatroom-head-color) solid;
                             border-bottom: none;
+                            background-color: var(--chatroom-head-color-lighten-25-percent);
                         }
                     }
                 }
@@ -187,6 +191,7 @@
         .emoji-picker.toolbar-menu {
             .emoji-picker__lists {
                 height: 12em;
+                background-color: var(--chat-content-background-color);
             }
         }
     }

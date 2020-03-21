@@ -70,9 +70,9 @@
             }
 
             .group-toggle, .group-toggle .fa {
-                color: var(--chat-head-color-dark) !important;
+                color: var(--chatroom-contacts-color) !important;
                 &:hover {
-                    color: var(--chat-head-color-darker) !important;
+                    color: var(--chatroom-contacts-color-hover) !important;
                 }
             }
 

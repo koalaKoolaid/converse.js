@@ -12,22 +12,11 @@ $mobile_portrait_length: 480px !default;
     --orange: #E7A151;
     --light-blue: #578EA9;
 
-
-    --peach: #f5C182;
-    --purple: #957DAD;
-    --purple-pink: #EBA7E8;
-    --papaya-white: #FFEFD5;
-    --pastelle-green: #7BE3A8;
-
-
-
-    --input-placeholder: var(--light-green);
+    
 
     --chat-status-online: var(--green);
     --chat-status-busy: var(--redder-orange);
     --chat-status-away: var(--orange);
-
-    --brand-heading-color: #387592; // $blue
 
     --completion-light-color: #FFB9A7; // $lightest-red
     --completion-normal-color: var(--redder-orange);
@@ -37,7 +26,7 @@ $mobile_portrait_length: 480px !default;
     --link-hover-color: #345566;
     --link-color-lighten-10-percent: #79a5ba; // lighten($light-blue, 10%)
     --dark-link-color: #206485; // $dark-blue
-    --global-background-color: #397491; // dark blue
+    --global-background-color: #7BE3A8; // dark blue
 
     --inverse-link-color: white;
     --text-shadow-color: #FAFAFA;
@@ -148,6 +137,12 @@ $mobile_portrait_length: 480px !default;
     --chat-toolbar-color: white;
     --text-time-color: white;
     --participant-title-color: red;
+
+    --brand-heading-color: #387592; // $blue
+    --brand-text-color:#957DAD;
+    --input-placeholder: var(--light-green);
+
+    --modal-color: white;
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --headline-head-color: var(--orange);
@@ -214,7 +209,7 @@ $mobile_portrait_length: 480px !default;
 }
 
 #conversejs.theme-nubnub {
-    
+
     --avatar-border-radius: 100%;
     --avatar-border: 0px;
     --avatar-background-color: none;
@@ -237,17 +232,32 @@ $mobile_portrait_length: 480px !default;
     //~~~~~~MODIFY HERE~~~~~~~~~~~
     --grey_bg: #222;
     --grey_bg-light: #514B4B;
-    --text-color: var(--purple);
+    --peach: #f5C182;
+    --purple: #957DAD;
+    --purple-pink: #EBA7E8;
+    --papaya-white: #FFEFD5;
+    --pastelle-green: #7BE3A8;
+
+    --global-background-color: var(--pastelle-green);
+    --headline-head-color: var(--grey_bg);
+    --modal-color: var(--grey_bg);
+    --text-color: var(--purple-pink);
     --subdued-color: var(--green);
     --chat-textarea-background-color: var(--grey_bg-light);
     --chat-content-background-color: var(--grey_bg);
     --occupants-background-color: var(--grey_bg);
-    --chat-head-color: var(--grey_bg);
+    
+
+    --chatroom-group-color: var(--purple-pink);
+    --chatroom-group-color-hover: var(--purple);
+    --chatroom-contacts-color: var(--purple-pink);
+    --chatroom-contacts-color-hover: var(--purple);
 
     --message-input-border-top: 1px solid var(--pastelle-green);
     --message-input-color: var(--pastelle-green);
     --chat-head-text-color: var(--pastelle-green);
-    --chat-content-user: var(--purple);
+    --chat-head-color: var(--grey_bg);
+    --chat-content-user: var(--purple-pink);
     --chat-textarea-color: var(--pastelle-green);
 
     --message-text-color: var(--papaya-white);
@@ -285,9 +295,6 @@ $mobile_portrait_length: 480px !default;
     --separator-text-color: var(--green);
     --chat-separator-border-bottom: 0px;
     --chatroom-separator-border-bottom: 0px;
-
-/*    --message-input-border-top: 1px solid #CCC;
-    --message-input-color: #CCC;*/
 
     --fullpage-chat-head-height: 62px;
     --fullpage-chatbox-button-size: 24px;

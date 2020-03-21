@@ -60,7 +60,7 @@ body.converse-fullscreen {
     }
 
     .converse-brand__text {
-        color: #ffffff;
+        color: var(--brand-text-color);
         font-family: var(--branding-font);
         font-weight: normal;
         text-align: center;

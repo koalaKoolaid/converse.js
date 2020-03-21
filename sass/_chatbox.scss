@@ -316,13 +316,13 @@
                 width: 100%;
                 padding: 0.25em;
                 display: block;
-                border-top: 4px solid var(--chat-head-color);
-                background-color: white;
-                color: var(--chat-head-color);
+                border-top: 1px solid var(--message-input-color);
+                background-color: var(--chat-toolbar-color);
+                color: var(--green);
                 .fa, .fa:hover,
                 .far, .far:hover,
                 .fas, .fas:hover {
-                    color: var(--chat-head-color);
+                    color: var(--message-input-color);
                     font-size: var(--font-size-large);
                 }
                 .disabled {

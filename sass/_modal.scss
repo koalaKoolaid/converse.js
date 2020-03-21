@@ -19,6 +19,13 @@
                     }
                 }
             }
+            .modal-content {
+                background-color: var(--modal-color);
+
+                button {
+                    color: white;
+                }
+            }
             .modal-footer {
                 justify-content: flex-start;
             }

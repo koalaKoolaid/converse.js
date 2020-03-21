@@ -145,6 +145,10 @@ $mobile_portrait_length: 480px !default;
     --modal-color: white;
     --scroll-track-color: rgba(110, 24, 105, 1);
     --scroll-thumb-color: rgba(245, 125, 239, 1);
+
+    --btn-color:var(--primary-color);
+    --btn-color-active: var(--primary-color-dark);
+
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --headline-head-color: var(--orange);
@@ -237,6 +241,7 @@ $mobile_portrait_length: 480px !default;
     --peach: #f5C182;
     --purple: #957DAD;
     --purple-pink: #EBA7E8;
+    --purple-dark: #5C4C6B;
     --papaya-white: #FFEFD5;
     --pastelle-green: #7BE3A8;
 
@@ -249,6 +254,8 @@ $mobile_portrait_length: 480px !default;
     --chat-content-background-color: var(--grey_bg);
     --occupants-background-color: var(--grey_bg);
     
+    --primary-color: var(--grey_bg-light);
+    --primary-color-dark:  var(--grey_bg);
 
     --chatroom-group-color: var(--purple-pink);
     --chatroom-group-color-hover: var(--purple);
@@ -269,6 +276,24 @@ $mobile_portrait_length: 480px !default;
     --chat-toolbar-color: var(--grey_bg);
     --text-time-color: var(--peach);
     --participant-title-color: var(--green);
+
+    --btn-color:var(--green);
+    --btn-color-active: var(--green-dark);
+
+    --secondary-color: #aeb0ac; // gray
+    --secondary-color-dark: #8d8f8c;
+
+    --warning-color: #eb6a07;
+    --warning-color-dark: #ad520c;
+
+    --danger-color: #e30220; 
+    --danger-color-dark: #ad0c21;
+
+    --light-background-color: #FCFDFD;
+
+    --error-color: #e30220; 
+    --info-color: #1E9652; 
+
     //~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --chatroom-head-color: var(--grey_bg);

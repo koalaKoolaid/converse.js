@@ -56,6 +56,7 @@
                 color: var(--chat-head-text-color);
             }
             &.chat-state-notification {
+                color: var(--message-input-color);
                 font-style: italic;
             }
             &.chat-event {

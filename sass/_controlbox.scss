@@ -103,7 +103,7 @@
 
         #converse-register {
             @include fade-in;
-            background: white;
+            background: var(--grey_bg-light);
             .title {
                 font-weight: bold;
             }

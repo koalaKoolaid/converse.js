@@ -216,7 +216,13 @@ converse.plugins.add('converse-smacks', {
             _converse.connection.addHandler(stanzaHandler);
             _converse.connection.addHandler(sendAck, Strophe.NS.SM, 'r');
             _converse.connection.addHandler(handleAck, Strophe.NS.SM, 'a');
-            if (_converse.session.get('smacks_stream_id')) {
+                
+
+            if(_converse.session == null)
+            {
+
+            }
+            else if (_converse.session.get('smacks_stream_id')) {
                 await sendResumeStanza();
             } else {
                 resetSessionData();

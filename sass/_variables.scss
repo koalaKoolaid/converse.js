@@ -148,7 +148,10 @@ $mobile_portrait_length: 480px !default;
 
     --btn-color:var(--primary-color);
     --btn-color-active: var(--primary-color-dark);
-
+    --roster-hover-background-color: white;
+    --input-background-color: white;
+    --input-background-color-focus: white;
+    --input-color: black;
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --headline-head-color: var(--orange);
@@ -238,6 +241,7 @@ $mobile_portrait_length: 480px !default;
     //~~~~~~MODIFY HERE~~~~~~~~~~~
     --grey_bg: #222;
     --grey_bg-light: #514B4B;
+    --grey_bg-dark: #111;
     --peach: #f5C182;
     --purple: #957DAD;
     --purple-pink: #EBA7E8;
@@ -250,10 +254,12 @@ $mobile_portrait_length: 480px !default;
     --modal-color: var(--grey_bg);
     --text-color: var(--purple-pink);
     --subdued-color: var(--green);
+    
     --chat-textarea-background-color: var(--grey_bg-light);
     --chat-content-background-color: var(--grey_bg);
     --occupants-background-color: var(--grey_bg);
-    
+
+
     --primary-color: var(--grey_bg-light);
     --primary-color-dark:  var(--grey_bg);
 
@@ -261,6 +267,8 @@ $mobile_portrait_length: 480px !default;
     --chatroom-group-color-hover: var(--purple);
     --chatroom-contacts-color: var(--purple-pink);
     --chatroom-contacts-color-hover: var(--purple);
+    --list-toggle-hover-color: var(--purple);
+    --roster-hover-background-color: var(--grey_bg-dark);
 
     --message-input-border-top: 1px solid var(--pastelle-green);
     --message-input-color: var(--pastelle-green);
@@ -294,6 +302,9 @@ $mobile_portrait_length: 480px !default;
     --error-color: #e30220; 
     --info-color: #1E9652; 
 
+    --input-background-color: black;
+    --input-background-color-focus: var(--grey_bg);
+    --input-color: var(--pastelle-green);
     //~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     --chatroom-head-color: var(--grey_bg);

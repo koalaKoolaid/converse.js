@@ -45,6 +45,24 @@
             font-size: calc(var(--font-size) - 2px);
             width: 100%;
         }
+
+        input
+        {
+            background-color: var(--input-background-color);
+            color: var(--input-color);
+        }
+        input:focus{
+            background-color: var(--input-background-color-focus);
+        }
+
+        select
+        {
+            background-color: var(--input-background-color);
+            color: var(--input-color);
+        }
+        select:focus{
+            background-color: var(--input-background-color-focus);
+        }
     }
 
     .roster-contacts {
@@ -171,7 +189,7 @@
                     margin-left: 5px;
                 }
                 &:hover {
-                    background-color: var(--controlbox-head-color-lighten-45-percent);
+                    background-color: var(--roster-hover-background-color);
                 }
             }
         }

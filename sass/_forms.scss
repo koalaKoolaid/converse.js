@@ -78,6 +78,16 @@
                 font-size: 125%;
                 margin-bottom: 1.5em;
             }
+            input{
+                background-color: var(--input-background-color);
+                color: var(--input-color);
+            }
+
+            input:focus{
+                background-color: var(--input-background-color-focus);
+                color: var(--input-color);
+            }
+
             select,
             input[type=password],
             input[type=number],
